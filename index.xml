@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>My First Blog</title>
+    <link>https://amy_lu.github.io/</link>
+    <description>Recent content on My First Blog</description>
+    <generator>Hugo -- 0.148.2</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 29 Jul 2025 17:10:35 +0800</lastBuildDate>
+    <atom:link href="https://amy_lu.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>This is the Post Title</title>
+      <link>https://amy_lu.github.io/posts/mypost/</link>
+      <pubDate>Tue, 29 Jul 2025 17:10:35 +0800</pubDate>
+      <guid>https://amy_lu.github.io/posts/mypost/</guid>
+      <description>&lt;p&gt;This is some content.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
