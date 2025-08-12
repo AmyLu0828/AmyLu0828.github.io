@@ -30,34 +30,6 @@
         }
 
     </style>
-    <style>
-        @media (prefers-color-scheme: dark) {
-            :root {
-                --theme: rgb(29, 30, 32);
-                --entry: rgb(46, 46, 51);
-                --primary: rgb(218, 218, 219);
-                --secondary: rgb(155, 156, 157);
-                --tertiary: rgb(65, 66, 68);
-                --content: rgb(196, 196, 197);
-                --code-block-bg: rgb(46, 46, 51);
-                --code-bg: rgb(55, 56, 62);
-                --border: rgb(51, 51, 51);
-            }
-
-            .list {
-                background: var(--theme);
-            }
-
-            .list:not(.dark)::-webkit-scrollbar-track {
-                background: 0 0;
-            }
-
-            .list:not(.dark)::-webkit-scrollbar-thumb {
-                border-color: var(--theme);
-            }
-        }
-
-    </style>
 </noscript><meta property="og:url" content="https://amylu0828.github.io/">
   <meta property="og:site_name" content="Amy&#39;s Blog">
   <meta property="og:title" content="Amy&#39;s Blog">
@@ -83,14 +55,10 @@
 </script>
 </head>
 
-<body class="list" id="top">
+<body class="list dark" id="top">
 <script>
-    if (localStorage.getItem("pref-theme") === "dark") {
-        document.body.classList.add('dark');
-    } else if (localStorage.getItem("pref-theme") === "light") {
+    if (localStorage.getItem("pref-theme") === "light") {
         document.body.classList.remove('dark')
-    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
-        document.body.classList.add('dark');
     }
 
 </script>
@@ -144,6 +112,22 @@
 </div>
 
     </footer>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Archon
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>My first learning experience with a full stack project with AI agents is with this project https://github.com/coleam00/Archon.
+This project is aimed at building an agent with Pydantic AI and Langraph that builds other agents.
+This is the hands on best project for beginners who just had some encounterance with Agentic workflows, but has only built small-scaled demos and is wondering how these workflows can be turned into actual products/applications.
+The best part of this project to me is that it includes 6 iterations. This gradual process of adding features and optimizations make it easier for me to follow - if you were to throw at me the final version at the very beginning I would not have understand. So, let’s get started.
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2025-07-29 00:00:00 +0000 UTC'>July 29, 2025</span>&nbsp;·&nbsp;9 min&nbsp;·&nbsp;1741 words&nbsp;·&nbsp;Amy Lu</footer>
+  <a class="entry-link" aria-label="post link to Archon" href="https://amylu0828.github.io/posts/archon-post/"></a>
 </article>
 
 <article class="post-entry"> 

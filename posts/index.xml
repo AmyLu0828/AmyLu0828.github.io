@@ -9,6 +9,16 @@
     <lastBuildDate>Tue, 29 Jul 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://amylu0828.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Archon</title>
+      <link>https://amylu0828.github.io/posts/archon-post/</link>
+      <pubDate>Tue, 29 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>https://amylu0828.github.io/posts/archon-post/</guid>
+      <description>&lt;p&gt;My first learning experience with a full stack project with AI agents is with this project  &lt;a href=&#34;https://github.com/coleam00/Archon&#34;&gt;https://github.com/coleam00/Archon&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;This project is aimed at building an agent with Pydantic AI and Langraph that builds other agents.&lt;/p&gt;
+&lt;p&gt;This is the hands on best project for beginners who just had some encounterance with Agentic workflows, but has only built small-scaled demos and is wondering how these workflows can be turned into actual products/applications.&lt;/p&gt;
+&lt;p&gt;The best part of this project to me is that it includes 6 iterations. This gradual process of adding features and optimizations make it easier for me to follow - if you were to throw at me the final version at the very beginning I would not have understand. So, let’s get started.&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Getting Started with AI Agents</title>
       <link>https://amylu0828.github.io/posts/mypost/</link>
       <pubDate>Tue, 29 Jul 2025 00:00:00 +0000</pubDate>
